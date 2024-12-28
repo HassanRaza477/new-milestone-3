@@ -1,18 +1,24 @@
 import { FaEye, FaComment, FaHeart } from "react-icons/fa";
+import Image from "next/image";
 
 export default function BlogPost() {
   return (
     <div className="Blog-container">
 
-        {/* {Blog-1} */}
+      {/* {Blog-1} */}
       <div className="blog">
         <div className="image">
-          <img src="/images/blog-1.webp" alt="Blog Cover" />
+          <Image 
+            src="/images/blog-1.webp" 
+            alt="Blog Cover" 
+            width={500} // Set the width of the image (adjust as needed)
+            height={300} // Set the height of the image (adjust as needed)
+          />
         </div>
         <div className="blog-content">
           <h1>The Mexico Dairy Day 1 Oaxaca</h1>
           <p>
-            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading....
+            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>
         </div>
 
@@ -33,19 +39,23 @@ export default function BlogPost() {
         </div>
       </div>
 
-    {/* {Blog-2} */}
+      {/* {Blog-2} */}
       <div className="blog">
         <div className="image">
-          <img src="/images/girl.webp" alt="Blog Cover" />
+          <Image 
+            src="/images/girl.webp" 
+            alt="Blog Cover" 
+            width={500} 
+            height={300} 
+          />
         </div>
         <div className="blog-content">
-          <h1>TheGirl From Ipanema</h1>
+          <h1>The Girl From Ipanema</h1>
           <p>
-            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading....
+            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>
         </div>
 
-        
         <div className="blog-icons">
           <div className="icon-left">
             <span className="icon-item">
@@ -63,15 +73,20 @@ export default function BlogPost() {
         </div>
       </div>
 
-    {/* {Blog-3} */}
+      {/* {Blog-3} */}
       <div className="blog">
         <div className="image">
-          <img src="/images/smith.webp" alt="Blog Cover" />
+          <Image 
+            src="/images/smith.webp" 
+            alt="Blog Cover" 
+            width={500} 
+            height={300} 
+          />
         </div>
         <div className="blog-content">
-          <h1>Mykonos With Mr. and Mrs. Smith</h1>
+          <h1>Mykonos With Mr and Mrs Smith</h1>
           <p>
-            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading....
+            Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>
         </div>
         <div className="blog-icons">
@@ -90,6 +105,7 @@ export default function BlogPost() {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
