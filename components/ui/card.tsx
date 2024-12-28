@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function(){
+export default function Card(){
     return(
         <>
         <div className="parent-card flex flex-wrap justify-center gap-6 p-4 bg-stone-200">

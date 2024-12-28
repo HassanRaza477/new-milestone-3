@@ -20,7 +20,7 @@ export default function Relax() {
                         <div className="blog-content">
                             <h1>Top 5 Beaches in Corfu Greece</h1>
                             <p>
-                                Corfu the emerald jewel of the Ionian Sea, is home to some of Greece s most stunning beaches.
+                                Corfu the emerald jewel of the Ionian Sea is home to some of Greece s most stunning beaches.
                                 Known for its turquoise waters lush greenery and golden sands this island is a haven for beach lovers.
                             </p>
                         </div>
@@ -50,7 +50,7 @@ export default function Relax() {
                         <div className="blog-content">
                             <h1>Essential Spa and Body Treatments</h1>
                             <p>
-                                Indulging in spa and body treatments is more than a luxury; it is a way to rejuvenate the mind body and spirit.
+                                Indulging in spa and body treatments is more than a luxury it is a way to rejuvenate the mind body and spirit.
                             </p>
                         </div>
 
