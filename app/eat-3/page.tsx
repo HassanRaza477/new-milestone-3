@@ -22,7 +22,7 @@ export default function Girl() {
                 </div>
 
                 <div className="girl-blog">
-                    <h1 className="girl-title">East of Eden The Best of Thailand's Markets</h1>
+                    <h1 className="girl-title">East of Eden The Best of Thailands Markets</h1>
                     <p>
                     Thailand often referred to as the Land of Smiles is a treasure trove of vibrant markets that
                      showcase the country s rich culture flavorful cuisine and artisanal craftsmanship. From bustling city 

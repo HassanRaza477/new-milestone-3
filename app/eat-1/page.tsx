@@ -40,7 +40,7 @@ export default function Eat1() {
 
                     <p>
                         Mexican food is deeply influenced by its indigenous roots primarily Aztec and Maya with Spanish
-                        colonial flavors adding another layer of complexity. Staples like corn, beans and chiles form
+                        colonial flavors adding another layer of complexity. Staples like corn beans and chiles form
                         the foundation of most dishes while the use of fresh herbs and spices ensures that no two dishes
                         are ever quite the same.
                     </p>
@@ -123,7 +123,7 @@ export default function Eat1() {
                                 />
                             </div>
                             <Link href="eat-2">
-                                <h2>Dark and Beautiful - The Magic of Acai</h2>
+                                <h2>Dark and Beautiful  The Magic of Acai</h2>
                             </Link>
                             <div className="blog-icons">
                                 <div className="icon-left">
@@ -149,7 +149,7 @@ export default function Eat1() {
                                 />
                             </div>
                             <Link href="eat-3">
-                                <h2>East of Eden - The Best of Thailand's Markets</h2>
+                                <h2>East of Eden  The Best of Thailand's Markets</h2>
                             </Link>
                             <div className="blog-icons">
                                 <div className="icon-left">
