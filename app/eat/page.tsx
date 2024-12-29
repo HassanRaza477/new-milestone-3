@@ -1,5 +1,6 @@
 import { FaEye, FaComment, FaHeart } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Eat() {
     return (
@@ -18,7 +19,7 @@ export default function Eat() {
                             <Image src="/images/eat-1.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>What is Cooking Mexico</h1>
+                            <Link href="eat-1"><h1>What is Cooking Mexico</h1></Link>
                             <p>
                                 Welcome to Cooking Mexico your ultimate destination for exploring the rich and diverse culinary traditions of Mexico.
                             </p>
@@ -47,7 +48,7 @@ export default function Eat() {
                             <Image src="/images/eat-2.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>Dark and Beautiful The Magic of Acai</h1>
+                            <Link href="eat-2"><h1>Dark and Beautiful The Magic of Acai</h1></Link>
                             <p>
                                 Welcome to Dark and Beautiful a blog dedicated to uncovering the enchanting world of acai.
                                 This small deep purple berry from the Amazon rainforest has taken the culinary and wellness world by storm.
@@ -77,7 +78,7 @@ export default function Eat() {
                             <Image src="/images/eat-3.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>East of Eden The Best of Thailand s Markets</h1>
+                           <Link href="eat-3"><h1>East of Eden The Best of Thailand s Markets</h1></Link>
                             <p>
                                 Thailand s markets are a sensory wonderland  a vibrant tapestry of sights sounds 
                                 and smells that capture the essence of this enchanting country.

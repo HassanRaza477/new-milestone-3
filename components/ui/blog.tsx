@@ -1,5 +1,6 @@
 import { FaEye, FaComment, FaHeart } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BlogPost() {
   return (
@@ -16,7 +17,7 @@ export default function BlogPost() {
           />
         </div>
         <div className="blog-content">
-          <h1>The Mexico Dairy Day 1 Oaxaca</h1>
+          <Link href="mexico"><h1>The Mexico Dairy Day 1 Oaxaca</h1></Link>
           <p>
             Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>
@@ -50,7 +51,7 @@ export default function BlogPost() {
           />
         </div>
         <div className="blog-content">
-          <h1>The Girl From Ipanema</h1>
+        <Link href="girl"><h1>The Girl From Ipanema</h1></Link>
           <p>
             Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>
@@ -84,7 +85,7 @@ export default function BlogPost() {
           />
         </div>
         <div className="blog-content">
-          <h1>Mykonos With Mr and Mrs Smith</h1>
+          <Link href="smith"><h1>Mykonos With Mr and Mrs Smith</h1></Link>
           <p>
             Create a blog post subtitle that summarizes your post in a few short punchy sentences and entices your audience to continue reading
           </p>

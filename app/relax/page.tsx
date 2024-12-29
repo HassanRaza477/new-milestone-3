@@ -1,5 +1,6 @@
 import { FaEye, FaComment, FaHeart } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Relax() {
     return (
@@ -18,7 +19,7 @@ export default function Relax() {
                             <Image src="/images/relax-1.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>Top 5 Beaches in Corfu Greece</h1>
+                           <Link href="relax-1"><h1>Top 5 Beaches in Corfu Greece</h1></Link>
                             <p>
                                 Corfu the emerald jewel of the Ionian Sea is home to some of Greece s most stunning beaches.
                                 Known for its turquoise waters lush greenery and golden sands this island is a haven for beach lovers.
@@ -48,7 +49,7 @@ export default function Relax() {
                             <Image src="/images/relax-2.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>Essential Spa and Body Treatments</h1>
+                            <Link href="relax-2"><h1>Essential Spa and Body Treatments</h1></Link>
                             <p>
                                 Indulging in spa and body treatments is more than a luxury it is a way to rejuvenate the mind body and spirit.
                             </p>
@@ -77,7 +78,7 @@ export default function Relax() {
                             <Image src="/images/relax-3.webp" alt="Blog Cover" width={500} height={300} />
                         </div>
                         <div className="blog-content">
-                            <h1>Silky Sands Turquoise Surf</h1>
+                            <Link href="relax-3"><h1>Silky Sands Turquoise Surf</h1></Link>
                             <p>
                                 Nothing compares to the allure of silky sands and turquoise surf where nature s beauty meets tranquility.
                             </p>
