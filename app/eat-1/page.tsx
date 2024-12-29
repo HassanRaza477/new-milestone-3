@@ -117,7 +117,7 @@ export default function Eat1() {
                             <div className="card-image">
                                 <Image
                                     src="/images/eat-2.webp"
-                                    alt="Dark and Beautiful - The Magic of Acai"
+                                    alt="Dark and Beautiful  The Magic of Acai"
                                     width={310}
                                     height={180}
                                 />
@@ -143,13 +143,13 @@ export default function Eat1() {
                             <div className="card-image">
                                 <Image
                                     src="/images/eat-3.webp"
-                                    alt="East of Eden - The Best of Thailand's Markets"
+                                    alt="East of Eden  The Best of Thailands Markets"
                                     width={310}
                                     height={180}
                                 />
                             </div>
                             <Link href="eat-3">
-                                <h2>East of Eden  The Best of Thailand's Markets</h2>
+                                <h2>East of Eden  The Best of Thailands Markets</h2>
                             </Link>
                             <div className="blog-icons">
                                 <div className="icon-left">
