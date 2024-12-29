@@ -26,7 +26,7 @@ export default function Girl() {
                     <p>
                         Few songs capture the essence of a moment a feeling or a place as effortlessly as The Girl From Ipanema.
                         Written in 1962 by Brazilian composers Antônio Carlos Jobim and Vinícius de Moraes with later English lyrics
-                        by Norman Gimbel
+                        by Norman Gimbel.
                     </p>
                     <div className="image">
                         <Image
@@ -34,21 +34,22 @@ export default function Girl() {
                             alt="Blog Cover"
                             width={500}
                             height={300}
+                            layout="responsive"
                         />
                     </div>
 
                     <p>
                         The Girl From Ipanema was inspired by a real person Heloísa Eneida Menezes Paes Pinto
                         a young woman who would pass by the Veloso bar in the Ipanema neighborhood of Rio de Janeiro.
-                        Her beauty and graceful demeanor captivated Jobim and de Moraes  who immortalized her charm in song.
+                        Her beauty and graceful demeanor captivated Jobim and de Moraes who immortalized her charm in song.
                         The piece was originally written for a musical called Dirigível but its standalone success far surpassed
-                        the play is reach.
+                        the plays reach.
                     </p>
 
                     <h2>The Bossa Nova Movement</h2>
                     <p>
                         The song is a quintessential example of bossa nova a genre that blends samba rhythms with jazz influences.
-                        During the 1960s. bossa nova became a global phenomenon, and "The Girl From Ipanema" played a pivotal
+                        During the 1960s bossa nova became a global phenomenon and The Girl From Ipanema played a pivotal
                         role in introducing international audiences to Brazilian music.
                     </p>
 
@@ -113,8 +114,16 @@ export default function Girl() {
 
                     <div className="girl-parent-card">
                         <div className="girl-card">
-                            <div className="card-image"><img src="/images/blog-1.webp"></img></div>
-                            <Link href="mexico"><h2>The Mexico Diary, Day 1: Oaxaca</h2></Link>
+                            <div className="card-image">
+                                <Image
+                                    src="/images/blog-1.webp"
+                                    alt="The Mexico Diary Day 1 Oaxaca"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                />
+                            </div>
+                            <Link href="mexico"><h2>The Mexico Diary Day 1 Oaxaca</h2></Link>
                             <div className="blog-icons">
                                 <div className="icon-left">
                                     <span className="icon-item">
@@ -126,11 +135,19 @@ export default function Girl() {
                                         <FaHeart /> 100
                                     </span>
                                 </div>
-                                </div>
                             </div>
+                        </div>
 
-                            <div className="girl-card">
-                            <div className="card-image"><img src="/images/smith.webp"></img></div>
+                        <div className="girl-card">
+                            <div className="card-image">
+                                <Image
+                                    src="/images/smith.webp"
+                                    alt="Mykonos with Mr. and Mrs. Smith"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive"
+                                />
+                            </div>
                             <Link href="smith"><h2>Mykonos with Mr. and Mrs. Smith</h2></Link>
                             <div className="blog-icons">
                                 <div className="icon-left">
@@ -143,13 +160,11 @@ export default function Girl() {
                                         <FaHeart /> 100
                                     </span>
                                 </div>
-                                </div>
                             </div>
                         </div>
-
-                        
                     </div>
                 </div>
+                </div>
             </>
-            )
+    );
 }
